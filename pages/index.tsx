@@ -1,14 +1,11 @@
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
+import { AuthContext } from "../contexts/AuthContext";
 import { supabase } from "../services/supabase"
 
 export default function Home() {
 
-  useEffect(() => {
-    supabase.auth.onAuthStateChange((event, session) => {
-      console.log(session);
-    })
-  },[])
-
+  const { user } = useContext(AuthContext)
+  
   async function handleLogin() {
     const { error , data } = await supabase.auth.signIn({
       provider: 'github'
@@ -18,9 +15,6 @@ export default function Home() {
       console.log(error);
       return
     }
-
-    console.log(data);
-    
   }
   async function handleLogout() {
     await supabase.auth.signOut()

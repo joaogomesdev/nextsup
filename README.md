@@ -1,3 +1,65 @@
+
+<h1 align="center">
+  Welcome to NextSup 👋
+</h1>
+<h1 align="center">
+ <img alt="PlantManager" height="80" title="" src="https://i.imgur.com/ysK5tLM.png" />
+</h1>
+
+<p align="center">
+
+ <img src="https://i.imgur.com/TMGRAXt.png" alt="APP"/>
+</p>
+
+
+
+## 💻 Project
+🌱 An application that reminds you to water your little plants so they don't get thirsty 🌊
+
+## 🔨 Features
+
+- [X] Under construction 🚧
+
+
+## ✨ Technologies
+
+- [X] Next
+- [X] Typescript
+- [X] Supabase
+
+
+
+## 🔖 Layout
+
+You can view the project layout through [this link](https://www.figma.com/file/HhBDkd4v1XesZIYkZ3fFWp/PlantManager). You must have an account on [Figma](http://figma.com/) to access it.
+
+
+## Running the project
+
+Clone the repository
+
+Use **yarn** or **npm install** to install project dependencies.
+
+```cl
+yarn
+```
+
+Then start the project.
+
+```cl
+expo start
+```
+
+Start the fake api.
+Replace the host with your local IP address. Do the same for the API file inside services.
+ 
+ ```cl
+json-server ./src/services server.json --host 192.168.1.4 --port 3333 --delay 700
+```
+
+
+# Next DOCS
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
