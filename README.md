@@ -3,12 +3,12 @@
   Welcome to NextSup 👋
 </h1>
 <h1 align="center">
- <img alt="NextRepo" height="80" title="" src="https://i.imgur.com/ysK5tLM.png" />
+ <img alt="NextRepo" height="80" title="" src="https://i.imgur.com/gKZOZUQ.png" />
 </h1>
 
 <p align="center">
 
- <img src="https://i.imgur.com/TMGRAXt.png" alt="APP"/>
+ <img src="https://media.giphy.com/media/B2Bp7mBSSUxQxYMedz/giphy.gif" alt="APP"/>
 </p>
 
 
